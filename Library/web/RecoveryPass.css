@@ -1,0 +1,90 @@
+root
+{ 
+    display: block;
+}
+img
+{
+    display:block;
+    margin:0 auto;
+}
+body
+{
+    background:#FFCC99;
+}
+.content 
+{
+    width: 450px;
+    height: 500px;
+    margin: 150px auto 0px auto;
+		
+}
+h3
+{
+    font-style: italic;
+    font-stretch: ultra-condensed;
+    
+    
+    
+}
+.box
+{
+	padding-left:10px;
+	width: 430px;
+	height: 150px;
+	margin-top: 28px;
+	border: 1px solid #6699FF;
+	border-radius: 5px;
+	background-color: #CC99FF;
+}
+.box > form 
+{
+	text-align: left;
+}
+.field 
+{
+	
+	width: 199px;
+	height: 28px;
+        float: left;
+	padding: 0px 28px 0px 10px;
+	border: 1px solid #dbdbdb;
+	border-radius: 14px;
+	font: 16px arial;
+	color: #58585a;
+	
+}
+.field:focus
+ {
+    outline: none;	
+    box-shadow: 0px 0px 5px 1px #A60052;
+}
+#Send 
+{
+	float: right;
+	margin-right: 4%;
+        width: 150px;
+	height: 30px;
+	color: white;
+	border: 1px solid #740037;
+	border-radius: 5px;
+	box-shadow: inset 0 0 2px #de97ba, 0 0 1px #cccccc;
+	background: linear-gradient(to bottom, #d3598a, #ba2e76);
+	background: -webkit-gradient(linear, left top, left bottom, from(#d3598a), to(#ba2e76));
+	background: -moz-linear-gradient(top, #d3598a, #ba2e76);
+	font: 16px arial;
+	text-shadow: #710036 1px -1px 0px;
+	cursor: pointer;
+}
+#Send:hover 
+{
+	
+	background: linear-gradient(to bottom, #ed79ad, #cd5590);
+	text-shadow: #b0316e 1px -1px 0px;
+}
+#Send:active
+{
+   border-top-color: #c35bcf;
+   background: #c35bcf; 
+}
+
+
